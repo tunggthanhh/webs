@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToyotaMyDinh</title>
+    <link rel="stylesheet" href="./css/a.css">
+    <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./FileAnh/logo.jpg" alt="Logo Toyota">
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul class="vmenu">
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="#">
+                            Sản Phẩm
+                        </a>
+                            <ul class="lmenu">
+                                <li><a href="sp1.html">Xe Toyota Vios</a></li>
+                                <li><a href="sp2.html">Xe Toyota Camry</a></li>
+                                <li><a href="sp3.html">Xe Toyota Corolla Altis</a></li>
+                                <li><a href="sp4.html">Xe Toyota Yaris</a></li>
+                                <li><a href="sp5.html">Xe Toyota Fortuner</a></li>
+                                <li><a href="sp6.html">Xe Toyota Hilux</a></li>
+                                <li><a href="sp7.html">Xe Toyota Innova</a></li>
+                                <li><a href="sp8.html">Xe Toyota Land Cruiser</a></li>
+                                <li><a href="sp9.html">Xe Toyota Land Cruiser Prado</a></li>
+                            </ul> 
+                            <i class="ti-angle-down"></i>
+                        </li>
+                        <li><a href="choose_color.html">Chọn Màu Xe</a></li>
+                        <li><a href="tra_gop.html">Mua Xe Trả Góp</a></li>
+                        <li><a href="contact.html">Liên Hệ</a></li>
+                        <li><a href="#">Tin Tức</a></li>
+                    </ul>
+                </div>
+                <div class="hotline">
+                    <span>Hotline: 0962 411 916</span>
+                </div>
+                <div class="sign_in">
+                    <a href="sign_in.html">Đăng nhập&#160;</a> | 
+                    <a href="sign_out.html">&#160;Đăng ký</a>
+                </div>
+            </div>
+        <!-- Ảnh -->
+        <div class="banner">
+            <img id="img" onclick="changeImage()" src="./FileAnh/banner.png" alt="Banner Imagin">
+        </div>
+        <div class="relative">
+            <div class="new-car">
+                <h1>TOYOTA MỸ ĐÌNH - XE MỚI</h1>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="car1.html">
+                            <img src="./FileAnh/car1.jpg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div class="name_car">
+                    <p>Toyota Corolla Cross</p>
+                    <div class="price">
+                        <p>820,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car2.jpg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div style="padding-top: 24px;" class="name_car">
+                    <p>Toyota Veloz</p>
+                    <div class="price">
+                        <p>638,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car3.jpg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div style="padding-top: 24px;" class="name_car">
+                    <p>Toyota Avanza</p>
+                    <div class="price">
+                        <p>558,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car4.jpg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div style="padding-top: 34px;" class="name_car">
+                    <p>Toyota Vios</p>
+                    <div class="price">
+                        <p>488,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car5.jpg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div class="name_car">
+                    <p>Toyota Wigo</p>
+                    <div class="price">
+                        <p>360,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car6.jpg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div class="name_car">
+                    <p>Toyota Raize</p>
+                    <div class="price">
+                        <p>498,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car7.jpg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div class="name_car">
+                    <p>Toyota Yaris Cross</p>
+                    <div class="price">
+                        <p>650,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car8.jpg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div class="name_car">
+                    <p>Toyota Fortuner</p>
+                    <div class="price">
+                        <p>1,055,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car9.jpeg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div class="name_car">
+                    <p>Toyota Corolla Altis</p>
+                    <div class="price">
+                        <p>719,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car10.jpg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div class="name_car">
+                    <p>Toyota Camry</p>
+                    <div class="price">
+                        <p>1,070,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car11.jpg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div class="name_car">
+                    <p>Toyota Innova</p>
+                    <div class="price">
+                        <p>755,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car12.jpg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div style="padding-top: 59px;" class="name_car">
+                    <p>Toyota Innova Cross</p>
+                    <div class="price">
+                        <p>810,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car13.jpeg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div class="name_car">
+                    <p>TToyota Land Cruiser Prado</p>
+                    <div class="price">
+                        <p>2,628,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car14.jpg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div class="name_car">
+                    <p>Toyota Land Cruiser</p>
+                    <div class="price">
+                        <p>4,286,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car15.jpg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div class="name_car">
+                    <p>Toyota Alphard</p>
+                    <div class="price">
+                        <p>4,370,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car16.jpg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div class="name_car">
+                    <p>Toyota Hilux</p>
+                    <div class="price">
+                        <p>706,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="car">
+                <ul class="ul-zoom">
+                    <li>
+                        <a href="">
+                            <img src="./FileAnh/car17.jpeg" alt="Car Image">            
+                        </a>
+                    </li>
+                </ul>
+                <div class="name_car">
+                    <p>Toyota Yaris</p>
+                    <div class="price">
+                        <p>684,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="relative">
+            <div class="new-car1">
+                <h1>USED CAR - XE ĐÃ QUA SỬ DỤNG</h1>
+            </div>
+        </div>
+        <div class="nav2">
+            <div class="car">
+                <img src="./FileAnh/used1.jpg" alt="Car Image">
+                <div class="name_car">
+                    <p>Toyota Altis đã qua sử dụng</p>
+                    <div class="price">
+                        <p>525,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <img src="./FileAnh/used2.jpg" alt="Car Image">
+                <div class="name_car">
+                    <p>Toyota Innova đã qua sử dụng</p>
+                    <div class="price">
+                        <p>575,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <img src="./FileAnh/used3.jpg" alt="Car Image">
+                <div class="name_car">
+                    <p>Toyota Yaris đã qua sử dụng</p>
+                    <div class="price">
+                        <p>370,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <img src="./FileAnh/used4.jpg" alt="Car Image">
+                <div class="name_car">
+                    <p>Toyota Veloz đã qua sử dụng</p>
+                    <div class="price">
+                        <p>650,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav2">
+            <div class="car">
+                <img src="./FileAnh/used5.jpg" alt="Car Image">
+                <div class="name_car">
+                    <p>Toyota Wigo đã qua sử dụng</p>
+                    <div class="price">
+                        <p>348,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <img src="./FileAnh/used6.jpg" alt="Car Image">
+                <div class="name_car">
+                    <p>Toyota Hilux đã qua sử dụng</p>
+                    <div class="price">
+                        <p>810,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <img src="./FileAnh/used7.jpg" alt="Car Image">
+                <div class="name_car">
+                    <p>Toyota Raize đã qua sử dụng</p>
+                    <div class="price">
+                        <p>535,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <img src="./FileAnh/used8.jpg" alt="Car Image">
+                <div class="name_car">
+                    <p>Toyota Vios đã qua sử dụng</p>
+                    <div class="price">
+                        <p>480,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav2">
+            <div class="car">
+                <img src="./FileAnh/used9.jpg" alt="Car Image">
+                <div class="name_car">
+                    <p>Toyota Camry đã qua sử dụng</p>
+                    <div class="price">
+                        <p>810,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <img src="./FileAnh/used10.jpg" alt="Car Image">
+                <div class="name_car">
+                    <p>Toyota Cross đã qua sử dụng</p>
+                    <div class="price">
+                        <p>775,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="car">
+                <img src="./FileAnh/used11.jpg" alt="Car Image">
+                <div class="name_car">
+                    <p>Toyota Fortner đã qua sử dụng</p>
+                    <div class="price">
+                        <p>850,000,000 đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="request">
+            <div class="yc">
+                <h3>
+                    <i class="ti-money"></i>
+                    <a href="contact.html">Yêu Cầu Báo Giá</a>
+                </h3>
+                <h3>
+                    <i class="ti-clipboard"></i>
+                    <a href="contact.html">Báo Giá Trả Góp</a>
+                </h3>
+                <h3>
+                    <i class="ti-car"></i>
+                    <a href="contact.html">Đăng Ký Lái Thử</a>
+                </h3>
+            </div>
+        </div>
+        <div class="relative">
+            <div class="why">
+                <h3 style="text-align: center;">
+                    <span style="font-size: 110%;">
+                        TẠI SAO NÊN CHỌN <u style="text-decoration: underline solid red;">MUA XE</u> TẠI TOYOTA MỸ ĐÌNH
+                    </span>
+                </h3>
+            </div>
+        </div>
+        <div class="container">    
+            <div class="why_car">
+                <div class="show_room">
+                    <img src="./FileAnh/show-room-toyota-mydinh.jpg" alt="ảnh show room">
+                </div>
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                 <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <img src="./FileAnh/khach-hang1.jpg" >
+                    </div> 
+                    <div class="mySlides fade">
+                        <img src="./FileAnh/khach-hang2.jpg" >
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./FileAnh/khach-hang3.jpg" >
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./FileAnh/khach-hang4.jpg" >
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./FileAnh/khach-hang5.jpg" >
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./FileAnh/khach-hang6.jpg" >
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./FileAnh/khach-hang7.jpg" >
+                    </div>
+    
+        <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+            </div>
+            <div class="text_car">
+                <p class="text1">Công ty TNHH MTV Toyota Mỹ Đình được thành lập vào ngày 01/03/2004,
+                    trở thành Đại lý chính thức của Công ty ô tô Toyota Việt Nam (Toyota Việt Nam)
+                    ngày 08/05/2006 kinh doanh theo mô hình 4S
+                </p>
+                <ul>
+
+                    <li class="text2"><p>Sales new Car – Bán Ô Tô Toyota mới</p></li>
+                    <li class="text2"><p>Sales used Car – Bán Ô Tô Toyota đã qua sử dụng</p></li>
+                    <li class="text2"><p>Service – Cung cấp dịch vụ bảo hành, bảo dưỡng, sửa chữa chuyên nghiệp chất lượng Toyota</p></li>
+                    <li class="text2"><p>Spare Parts – Cung cấp phụ tùng ôtô Toyota chính hiệu</p></li>
+                    <li class="text2"><p>Toyota Mỹ Đình – Đại lý Toyota có cơ sở vật chất và quy mô lớn nhất Việt Nam 
+                        và Đông Nam Á với diện tích mặt bằng 6.600 m2, gồm 3 tầng nhà xưởng được trang 
+                        bị đồng bộ thiết bị chuyên dùng đạt tiêu chuẩn Quốc Tế.</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="service_car">
+            <div class="icon">
+                <div class="logo_icon">
+                    <img style="width: 55px; height: 55px;" src="./FileAnh/giaoxe.png">
+                </div>
+                <div class="text_icon">
+                    <h3>GIAO XE TẬN NHÀ</h3>
+                </div>
+            </div>
+            <div class="icon">
+                <div class="logo_icon">
+                    <img style="width: 55px; height: 55px;" src="./FileAnh/like.png">
+                </div>
+                <div class="text_icon">
+                    <h3>GIÁ XE TỐT NHẤT</h3>
+                </div>
+            </div>
+            <div class="icon">
+                <div class="logo_icon">
+                    <img style="width: 55px; height: 55px;" src="./FileAnh/giamgia.png">
+                </div>
+                <div class="text_icon">
+                    <h3>NHẬN NHIỀU KHUYẾN MÃI NHẤT</h3>
+                </div>
+            </div>
+            <div class="icon">
+                <div class="logo_icon">
+                    <img style="width: 55px; height: 55px;" src="./FileAnh/dichvu.png">
+                </div>
+                <div class="text_icon">
+                    <h3>DỊCH VỤ HẬU MÃI CHU ĐÁO</h3>
+                </div>
+            </div>
+        </div>
+        <div class="relative">
+            <div class="news">
+                <b></b>
+                <span>TIN TỨC</span>
+                <b></b>
+            </div>
+        </div>
+        <div class="tin-tuc">
+            <div class="share">
+                <img src="./FileAnh/tintuc1.webp" alt="Tin Tức Image">
+                <h5>Độ xe LC300 phiên bản Trung Đông chính hãng</h5>
+                <p>Độ xe LC300 phiên bản Trung Đông chính hãng Toyota Land Cruiser LC300 được...</p>
+            </div>
+            <div class="share">
+                <img src="./FileAnh/tintuc2.webp" alt="Tin Tức Image">
+                <h5>Toyota Việt Nam công bố doanh số bán hàng tháng 4/2024</h5>
+                <p>Toyota Việt Nam công bố doanh số bán hàng tháng 4/2024 Trong tháng 4/2024, Toyota...</p>
+            </div>
+            <div class="share">
+                <img src="./FileAnh/tintuc3.jpg" alt="Tin Tức Image">
+                <h5>Những tính năng an toàn nổi bật trên Yaris Cross 2024</h5>
+                <p>Những tính năng an toàn nổi bật trên Yaris Cross. Yaris Cross 2024 được...</p>
+            </div>
+        </div>
+        <div class="space-news-ft"></div>
+
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="background_ft">
+                <div class="space_ft">
+                    <div class="fun">
+                        <div>
+                            <div class="img_house">
+                                <img src="./FileAnh/toanha.png">
+                            </div>
+                            <div class="toyota_md">
+                                <span><i class="fa-solid fa-user"></i>TOYOTA MỸ ĐÌNH</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="text-ff">
+                                <h3>NƠI GỬI TRỌN NIỀM VUI</h3>
+                            </div>
+                            <div class="sdt">
+                                <i style="border-radius: 45px; padding: 5px; background-color: #fff; color: black;" class="fa-solid fa-phone"></i>
+                                <span>&ensp;0962 411 916</span>
+                            </div>
+                            <div class="email">
+                                <i style="border-radius: 45px; padding: 5px; background-color: #fff; color: black;" class="fa-solid fa-envelope"></i>
+                                <span>&ensp;dochet1989@gmail.com</span>
+                            </div>
+                            <div class="dia_chi">
+                                <i style="border-radius: 45px; padding: 5px; background-color: #fff; color: black;" class="fa-solid fa-house"></i>
+                                <span>&ensp;15 Phạm Hùng, Mỹ Đình 2, Nam Từ Liêm, Hà Nội</span>
+                            </div>
+                        </div>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.0903799199596!2d105.77756657504392!3d21.02906938062032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b31b463e4b%3A0xf699daba5fc6b129!2zMTUgUGjhuqFtIEjDuW5nLCBN4bu5IMSQw6xuaCwgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1715156676179!5m2!1svi!2s"
+                     width="658.4" height="210.4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    
+<script src="./slide.js"></script>
+<script src="changeImg.js"></script>
+</body>
+</html>

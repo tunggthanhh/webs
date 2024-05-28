@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    width: 100%;
+}
+
+.header{  
+    z-index: 999;
+    padding-left: 125px;
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+}
+.logo{
+    width: 20%;
+    padding: 10px 0;
+}
+.logo > a > img{
+    max-height: 90px;
+    width: auto;
+}
+.menu{
+    width: 50%;
+}
+.vmenu{
+    display: flex;
+}
+.vmenu > li{
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 15px;
+    padding: 0 10px;
+    list-style: none;
+}
+.vmenu > li > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 88px;
+    text-decoration: none;
+}
+.vmenu > li:hover{
+    border-bottom: 2px solid black;
+}
+.lmenu{
+    font-weight: lighter;
+    padding: 0px;
+    list-style: none;
+    position: absolute;
+    display: none;
+    top: 100%;
+}
+.vmenu>li:hover .lmenu{
+    display: block;
+}
+.lmenu>li>a{
+    padding-right: 30px;
+    display: flex;
+    line-height: 30px;
+    text-decoration: none;
+    font-variant: none;
+    padding-left: 30px;
+    color: grey;
+    background-color: white;
+}
+.lmenu>li>a:hover{
+    border-bottom: 1px solid black;
+    color: red;
+}
+
+.ti-angle-down{
+    font-size: 8px;
+}
+.hotline{
+    width: 15%;
+}
+.hotline > span{
+    background-color: rgba(238, 34, 34, 0.866);
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.sign_in{
+    display: flex;
+    width: 15%;
+    text-align: center;
+    padding: 10px 15px;
+    
+    font-weight: bold;
+}
+.sign_in > a{
+    text-decoration: none;
+    color: black;
+}
+.sign_in > a:hover{
+    color: #717171;
+}
+.banner{
+    padding: 0;
+    width: 100%;
+}
+.banner > img{
+    margin-top: 90px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.relative{
+    position: relative;
+}
+.new-car{
+    display: block;
+    height: auto;
+    padding:30px 125px;
+    background-color: rgba(237, 237, 237, 0.97);
+}
+.new-car > h1{
+    z-index: 1;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    text-rendering: optimizeSpeed;
+    width: 100%;
+    font-size: 28px;
+    padding-left: 9.8px;
+}
+.new-car1{
+    display: block;
+    height: auto;
+    padding:30px 125px;
+    background-color: white;
+}
+.new-car1 > h1{
+    z-index: 1;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    text-rendering: optimizeSpeed;
+    width: 100%;
+    font-size: 28px;
+    padding-left: 9.8px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    background-color: rgba(237, 237, 237, 0.97);
+    padding: 0 125px;
+}
+.nav2{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding: 0 125px;
+}
+.car{
+    max-width: 25%;
+    padding: 0 9.8px 19.6px; 
+    overflow: hidden;
+}
+
+.ul-zoom li{
+    overflow: hidden;
+}
+.ul-zoom{
+    list-style: none;
+}
+.ul-zoom li a img{
+    display: block;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.ul-zoom li:hover img{
+    transform: scale(1.1);
+}
+
+
+
+
+.name_car{
+    text-align: center;
+    padding: 5px;
+}
+.price{
+    color: red;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 20px;
+}
+.yc{
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    text-rendering: optimizeSpeed;
+    width: 100%;
+}
+.yc > h3{
+    flex-basis: 33.333333%;
+    max-width: 33.333333%;
+    border: 6px solid #ed1c24;
+    padding: 10px;
+    margin: 0 15px;
+    font-size: 26px;
+    font-weight: bold;
+    background: #de0b0b;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+.yc > h3 > i{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.yc > h3 > a{
+    color: #fff;
+    text-decoration: none;
+}
+.request{
+    position: relative;
+    display: block;
+    height: auto;
+    padding:30px 125px;
+    background-color: rgba(237, 237, 237, 0.97);
+}
+.why{
+    display: block;
+    height: auto;
+    padding:30px 125px;
+    background-color: white;
+}
+.why > h2{
+    font-family: 'Roboto', sans-serif !important;
+    z-index: 1;
+    line-height: 1.3;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    text-rendering: optimizeSpeed;
+    width: 100%;
+    font-size: 28px;
+    padding-left: 9.8px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 200px;
+  height: 260px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(245, 241, 241, 0.873);
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.why_car{
+    width: 100%;
+    
+}
+.show_room{
+    width: 566.65px;
+    height: 318.737px;
+    margin-bottom: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.1);
+}
+.why_car img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    padding: 0 260px;
+}
+.text_car{
+    width: 100%;
+    text-align: left;
+}
+.text_car .text1{
+    margin-bottom: 15px;
+    line-height: 25px;
+    padding: 10px;
+    padding-top: 0px;
+}
+.text_car .text2{
+    padding: 5px;
+    margin-left: 30px;
+    line-height: 20px;
+}
+.text_car .text2 p{
+    line-height: 24px;
+}
+.service_car{
+    height: auto;
+    padding: 20px 170px;
+    display: flex;
+    width: 100%;
+}
+.tin-tuc{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding: 0 125px;
+}
+.share{
+    width: 33.3333333333%;
+    padding: 0 9.8px 19.6px; 
+}
+.share > img{
+    width: 100%;
+    height: auto;
+}
+.share > h5{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+}
+.share > p{
+    padding: 5 10px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+}
+.space-news-ft{
+    padding: 40px;
+}
+
+
+.icon{
+    flex-basis: 25%;
+    width: 25%;
+    background-color: rgba(222, 216, 216, 0.484);
+    position: relative;
+    z-index: 1;
+    text-rendering: optimizeSpeed;
+    border-radius: 15px;
+    margin: 8px;
+    box-shadow: 0 7px 14px rgba(0,0,0,.25), 0 5px 5px rgba(0,0,0,.1);
+
+}
+.logo_icon{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.text_icon{
+    text-align: center;
+    font-size: 15px;
+    
+    margin-bottom: 10px;
+}
+.news{
+    display: flex;
+    padding: 30px 125px;
+    justify-content: space-between;
+}
+.news > span{
+    font-weight: bold;
+    text-align: center;
+    margin: 0 15px;
+    font-size: 30px;
+}
+.news > b{
+    margin-top: 12.8px;
+    background-color: currentColor;
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+}
+.img_house > img{
+    height: auto;
+    width: 274.3px;
+}
+.footer{
+    width: 100%;
+}
+.space_ft{
+    padding-top: 25px;
+    margin-left: 130px;
+}
+.background_ft{
+    width: 100%;
+    height: 490px;
+    background-image: url(../FileAnh/background_footer.jpg);
+    background-size: 100% 100%;
+}
+.toyota_md{
+    text-align: center;
+}
+.toyota_md > span{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 34px;
+    border-radius: 30px;
+    border: 1px solid red;
+    background-color: red;
+}
+.fun{
+    display: flex;
+    padding-bottom: 20px;
+}
+.text-ff{
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 22px;
+    padding-top: 10px;
+}
+.sdt{
+    color: #fff;
+    padding-left: 22px;
+    padding-top: 20px;
+}
+.email{
+    color: #fff;
+    padding-left: 44px;
+    padding-top: 10px;
+}
+.dia_chi{
+    color: #fff;
+    padding-left: 66px;
+    padding-top: 10px;
+}
+
